@@ -1,0 +1,197 @@
+body {
+    background-color: white;
+}
+@font-face {
+    font-family: Existence;
+    src: url('../fonts/Existence-Light.otf')format('truetype');
+}
+
+.my-container{
+    overflow: hidden;
+}
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100%;
+    height: auto;
+    opacity: 0.02;
+}
+
+.lightHead{
+   font: 2.5rem Existence,serif;
+    text-align: center;
+}
+.gap{
+    margin-bottom: 30px;
+}
+.gap2{
+    margin-bottom: 70px;
+}
+.container .slider{
+    margin-top: 100px;
+    background-color: #ffe2bd;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.slider h1{
+        padding-top: 70px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+#btn1{
+    margin-top: 40px;
+}
+
+.sec{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.underline{
+    border: 1px solid black;
+    width: 25px;
+    margin-left: 0px;
+    margin-top: -1px;
+}
+.rowOne{
+
+    margin: 15px;
+
+}
+.img_container{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.main {
+    margin: 0 auto -60px;
+}
+
+.main .img-fluid {
+    margin-bottom: 0px;
+}
+
+.grid-custom .col-sm-6,
+.grid-custom .col-xs-6,
+.grid-custom .col-xs-12,
+.grid-custom .col-sm-3 {
+    padding:5px;
+}
+.gaps{
+    text-align: center;
+    margin-top: 100px;
+}
+.secThr{
+    text-align: center;
+    background-color: #ffe1bd;
+
+}
+
+.teamSec{
+    margin-left: 25px;
+}
+
+.headMargin{
+    margin-top: 15px;
+    color: black;
+}
+
+.underline2{
+    width: 10%;
+    border: 1px solid black;
+}
+
+.contsec{
+background: black;
+color: white;
+text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.para{
+    display: inline;
+}
+.social{
+    align: left;
+    display: inline-block;
+    margin:30px 30px 0 0;
+}
+.btn{
+    border-radius: 50px;
+}
+
+form{
+    margin:20px;
+    float: right;
+}
+
+input{
+    text-align: right;
+    display: block;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+}
+
+.submit{
+    background-color: white;
+    color: #262624;
+    width: 120px;
+    float: inherit;
+
+}
+.carousel-indicators .active {
+    background-color: #373a3c;
+}
+.carousel-control.right{
+
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0.02) 100%);
+
+}
+
+.carousel-control.left {
+
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0.02) 100%);
+
+}
+.carousel-indicators {
+            bottom: -40px;
+}
+.carousel-indicators li{
+background-color:transparent;
+    border: 1px solid #373a3c;
+    border-radius: 0;
+}
+@media (min-width: 544px){
+    .carousel-indicators {
+        bottom: -40px;
+    }
+}
+.mainHead{
+    color: black;
+}
+
+.errHead{
+    margin-bottom: auto;
+    font-size: 224px;
+}
+
+.errDiv{
+    text-align: center;
+}
+
